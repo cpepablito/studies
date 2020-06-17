@@ -1,6 +1,0 @@
-{
-    "secret":"00110772aebca3ae1767bcb43da5f22c",
-    "mongoDB":{
-        "connectionString": "mongodb://root:root@127.0.0.1/noderest?authSource=admin"
-    }
-}
