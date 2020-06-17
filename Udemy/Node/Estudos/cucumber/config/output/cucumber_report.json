@@ -1,0 +1,49 @@
+[
+  {
+    "description": "    Testes voltados ao Kafka",
+    "keyword": "Feature",
+    "name": "Kafka",
+    "line": 1,
+    "id": "kafka",
+    "tags": [],
+    "uri": "features/kafka/kafka.feature",
+    "elements": [
+      {
+        "id": "kafka;1---kafka-message",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "1 - Kafka Message",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I publish oi to kafka at teste",
+            "match": {
+              "location": "features/steps/steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "message recieved at teste should be oi",
+            "match": {
+              "location": "features/steps/steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

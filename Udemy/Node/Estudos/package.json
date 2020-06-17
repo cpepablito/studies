@@ -1,0 +1,30 @@
+{
+  "name": "estudos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "commander": "^4.1.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "js-yaml": "^3.13.1",
+    "kafka-node": "^5.0.0",
+    "node-yaml": "^4.0.1"
+  },
+  "devDependencies": {
+    "commander": "^4.1.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.1.0",
+    "js-yaml": "^3.13.1",
+    "kafka-node": "^5.0.0",
+    "node-yaml": "^4.0.1"
+  },
+  "scripts": {
+    "start": "./cucumber/bin/start.sh",
+    "start-feature": "./cucumber/bin/features.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

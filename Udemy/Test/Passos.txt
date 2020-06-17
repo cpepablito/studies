@@ -1,0 +1,13 @@
+npm install node
+npm init -y
+npm install express
+npm install body-parser
+
+docker-compose mongodb ->
+- localhost:8081 [mongo express(mongo admin)]
+
+npm install mongoose
+
+add ?authSource=admin to connection string
+
+npm install bcrypt

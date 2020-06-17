@@ -1,0 +1,13 @@
+{
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "cucumberautocomplete.steps": [
+        "cucumber/features/steps/*.js",
+    ],
+    "cucumberautocomplete.syncfeatures": "cucumber/features/*feature",
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "git.ignoreLimitWarning": true
+}
