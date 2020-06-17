@@ -1,1 +1,1 @@
-first create-react-app my-app
+npx create-react-app *name*
