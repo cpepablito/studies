@@ -137,7 +137,7 @@ class App extends Component {
       });
   }
 
-  togglePersonsHanler = () => {
+  togglePersonsHandler = () => {
     const doesShow = this.state.showPersons;
     this.setState({ showPersons: !doesShow });
   }
@@ -168,7 +168,7 @@ class App extends Component {
         <h1>Hello World</h1>
         <button
           style={style}
-          onClick={this.togglePersonsHanler} >Toggle</button>
+          onClick={this.togglePersonsHandler} >Toggle</button>
         {persons}
       </div>
     );
